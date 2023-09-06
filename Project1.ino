@@ -1,7 +1,7 @@
 //R08888
-#define BLYNK_TEMPLATE_ID "TMPLv5vCaiaj"
-#define BLYNK_TEMPLATE_NAME "Control relay"
-#define BLYNK_AUTH_TOKEN "WRHcYcbbUZ1AiAcof-A3cioPzJ9Ufeib"
+#define BLYNK_TEMPLATE_ID   "*******" //Your Blynk Template ID
+#define BLYNK_TEMPLATE_NAME "*******" //Your Blynk Template Name
+#define BLYNK_AUTH_TOKEN "******************" //Your Blynk Token
 
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
@@ -43,8 +43,8 @@ const float MaxKelembapan = 66;
 
 BlynkTimer timer;  //Timer untuk menjalankan fungsi secara berkala
 
-char ssid[] = "TexasKost4";     // Your WiFi SSID
-char pass[] = "wisnuudahpwt";  // Paswword SSID/WiFi
+char ssid[] = "*********";     // Your WiFi SSID
+char pass[] = "*********";  // Paswword SSID/WiFi
 
 void setup() {
   // Debug console
