@@ -22,10 +22,7 @@ WidgetLCD lcd2(V9);  //Blynk LCD
 #define RLed 33 //Lampu
 #define BLed 25 //Misting
 
-float h, t;
-
-float calibratedHumidity;
-float calibratedTemperature;
+float h, t, calibratedHumidity, calibratedTemperature;
 
 int otomatisBlynk, relayBlynk_1, relayBlynk_2;
 
