@@ -27,7 +27,7 @@ float h, t, calibratedHumidity, calibratedTemperature;
 int otomatisBlynk, relayBlynk_1, relayBlynk_2;
 
 const int RELAY_PIN_1 = 14;  //Lampu Halogen/Halogen Lamp
-const int RELAY_PIN_2 = 27;  //Pompa Air/Water Pump
+const int RELAY_PIN_2 = 27;  //Misting
 
 //SDA pin on I2C module to pin D21 on ESP32
 //SCL pin on I2C module to pin D22 on ESP32
