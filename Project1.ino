@@ -97,7 +97,7 @@ void loop() {
 }
 
 void autocontrol() {
-  while (otomatisBlynk == 1) {
+  if (otomatisBlynk == 1) {
 
     lcd2.print(6, 1, "Otomat");
     lcd.setCursor(10, 1);
